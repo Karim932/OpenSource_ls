@@ -24,7 +24,7 @@ cd OpenSource_ls/src
 3. Outils nécessaires  
 Nous aurons besoin de Msys2 pour compiler et tester le code. 
 
-[lien](https://github.com/msys2/msys2-installer/releases/download/2023-10-26/msys2-x86_64-20231026.exe)
+Voici le lien du téléchargement de Msys2 : [lien](https://github.com/msys2/msys2-installer/releases/download/2023-10-26/msys2-x86_64-20231026.exe)
 
 Après l'avoir installer, faite `gcc --version` afin de vérifier la version de compileur (installer gcc, si ce n'est pas fait)
 
