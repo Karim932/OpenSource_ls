@@ -2,4 +2,4 @@
 ./build/debug/*     # Tous les fichiers présents dans le fichier `debug`.
 node_modules        # Dossier contenant les node_modules.
 
-**/*.test
+test
