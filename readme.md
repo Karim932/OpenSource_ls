@@ -13,17 +13,24 @@ Bienvenue à tous, dans ce projet Open Source qui va avoir le but de créer `ls.
 
 1. Cloner le dépôt Github 
 ```bash 
-git clone ...
+git clone https://github.com/Karim932/OpenSource_ls.git
 ```
 
 2. Aller sur le répertoire du projet
 ```bash 
-cd OpenSource_ls
+cd OpenSource_ls/src
 ```
 
-3. Exécutez le script ls.c
-```bash 
+3. Outils nécessaires  
+Nous aurons besoin de Msys2 pour compiler et tester le code. 
 
+[lien](https://github.com/msys2/msys2-installer/releases/download/2023-10-26/msys2-x86_64-20231026.exe)
+
+Après l'avoir installer, faite `gcc --version` afin de vérifier la version de compileur (installer gcc, si ce n'est pas fait)
+
+4. Exécutez le script ls.c
+```bash 
+./lsc "chemin/du/dossier"
 ```
 
 ## 💪 Contribuer 

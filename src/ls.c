@@ -1,3 +1,12 @@
+---
+name: Bug report
+about: Faire un report pour améliorer le projet
+title: ''
+labels: bug, good first issue
+assignees: Karim932
+
+---
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <dirent.h>
