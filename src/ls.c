@@ -2,15 +2,16 @@
 #include <stdlib.h>
 #include <dirent.h>
 
-int main(int argc, char *argv[]) {
-    // Vérifier si le nombre d'arguments est correct
-    if (argc != 2) {
-        fprintf(stderr, "Usage: %s <directory>\n", argv[0]);
-        exit(EXIT_FAILURE);
-    }
+int main() {
+    // Déclarer une chaîne pour stocker le chemin du répertoire
+    char directory[256];
+
+    // Demander à l'utilisateur d'entrer le chemin du répertoire
+    printf("Entrez le chemin du répertoire : ");
+    scanf("%255s", directory);
 
     // Ouvrir le répertoire spécifié
-    DIR *dir = opendir(argv[1]);
+    DIR *dir = opendir(directory);
 
     // Vérifier si le répertoire a été ouvert avec succès
     if (dir == NULL) {
